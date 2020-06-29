@@ -38,3 +38,12 @@ git commit -am
 sube los cambios de archivos que ya estaban añadidas
 
 git brench crea una rama
+ssh-keygen -t rsa -b 4096 -C "marlonmolina9@hotmail.com"ssh-keygen -t rsa -b 4096 "marlonmolina9@hotmail.com"
+ ssh-add ~/.ssh/id_rsa
+
+$ git remote -v
+origin  https://github.com/MarlonMolina91/hyperblog.git (fetch)
+origin  https://github.com/MarlonMolina91/hyperblog.git (push)
+
+marlo@DESKTOP-G01RLCM MINGW64 ~/Proyecto1 (master)
+$ git remote set-url git@github.com:MarlonMolina91/hyperblog.git
