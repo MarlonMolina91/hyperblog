@@ -36,3 +36,5 @@ git pull
 
 git commit -am
 sube los cambios de archivos que ya estaban añadidas
+
+git brench crea una rama
